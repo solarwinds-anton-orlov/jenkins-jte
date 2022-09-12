@@ -1,3 +1,3 @@
 jte {
-    allow_scm_jenkinsfile = False
+    allow_scm_jenkinsfile = false
 }
