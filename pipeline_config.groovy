@@ -12,3 +12,6 @@ stages {
         deploy
     }
 }
+libraries {
+    testLibrary
+}
