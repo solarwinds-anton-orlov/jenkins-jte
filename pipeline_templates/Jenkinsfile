@@ -1,4 +1,17 @@
-test()
-build()
-publish()
-deploy()
+pipeline {
+    agent any
+    stages {
+        stage("Test") {
+            test()
+        }
+        stage("Build") {
+            build()
+        }
+        stage("Publish") {
+            publish()
+        }
+        stage("Deploy") {
+            deploy()
+        }
+    }
+}
