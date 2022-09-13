@@ -2,16 +2,24 @@ pipeline {
     agent any
     stages {
         stage("Test") {
-            test()
+            steps {
+                test()
+            }
         }
         stage("Build") {
-            build()
+            steps {
+                build()
+            }
         }
         stage("Publish") {
-            publish()
+            steps {
+                publish()
+            }
         }
         stage("Deploy") {
-            deploy()
+            steps {
+                deploy()
+            }
         }
     }
 }
