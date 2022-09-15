@@ -1,6 +1,6 @@
 jte {
     allow_scm_jenkinsfile = false
-    pipeline_template = "Jenkinsfile"
+    // pipeline_template = "Jenkinsfile"
 }
 stages {
     continuous_integration {
