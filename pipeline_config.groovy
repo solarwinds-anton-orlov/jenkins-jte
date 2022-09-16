@@ -4,12 +4,12 @@ jte {
 }
 stages {
     continuous_integration {
-        test
-        build
-        publish
+        test()
+        build()
+        publish()
     }
     continuous_delivery {
-        deploy
+        deploy()
     }
 }
 libraries {
