@@ -1,4 +1,4 @@
-test
-build
-publish
-deploy
+test()
+build()
+publish()
+deploy()
