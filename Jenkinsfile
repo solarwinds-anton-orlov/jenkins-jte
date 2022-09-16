@@ -1,2 +1,4 @@
-continuous_integration
-continuous_delivery
+test
+build
+publish
+deploy
